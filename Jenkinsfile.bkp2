@@ -1,5 +1,5 @@
 @Library('jenkins-shared-library') 
-defconfigMap=[
+def configMap=[
     type: "nodejsEKS",
     component: "frontend",
     project: "expense"
